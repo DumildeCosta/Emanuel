@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emanuel de Oliveira | Desenvolvedor Full Stack</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="fixed w-full bg-white shadow-sm z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold mr-3">EO</div>
+                    <h1 class="text-xl font-bold text-gray-800">Emanuel de Oliveira</h1>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#inicio" class="nav-link font-medium text-gray-600 hover:text-gray-900">Início</a>
+                    <a href="#sobre" class="nav-link font-medium text-gray-600 hover:text-gray-900">Sobre</a>
+                    <a href="#servicos" class="nav-link font-medium text-gray-600 hover:text-gray-900">Serviços</a>
+                    <a href="#portfolio" class="nav-link font-medium text-gray-600 hover:text-gray-900">Portfólio</a>
+                    <a href="#contato" class="nav-link font-medium text-gray-600 hover:text-gray-900">Contato</a>
+                </nav>
+                <button class="md:hidden focus:outline-none">
+                    <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="gradient-bg text-white pt-32 pb-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">Transformando ideias em soluções digitais</h1>
+                <p class="text-xl text-blue-100 mb-8">Desenvolvedor Full Stack especializado em criar aplicações web modernas e eficientes.</p>
+                <div class="flex space-x-4">
+                    <a href="#contato" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition duration-300">Contate-me</a>
+                    <a href="#portfolio" class="border border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-blue-600 transition duration-300">Ver Portfólio</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <div class="w-64 h-64 md:w-80 md:h-80 bg-white rounded-full opacity-10 absolute -top-6 -left-6"></div>
+                    <div class="w-64 h-64 md:w-80 md:h-80 bg-white rounded-full opacity-5 absolute -bottom-6 -right-6"></div>
+                    <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="Desenvolvedor trabalhando" class="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-10 md:mb-0 flex justify-center">
+                    <div class="relative">
+                        <div class="w-64 h-64 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-xl"></div>
+                        <div class="absolute -bottom-6 -right-6 bg-gray-100 p-4 rounded-lg shadow-lg">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white mr-3">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-gray-800">5+ Anos</p>
+                                    <p class="text-sm text-gray-600">Experiência</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-2/3 md:pl-16">
+                    <h2 class="text-3xl font-bold mb-6">Sobre Mim</h2>
+                    <p class="text-gray-600 mb-6">Sou um desenvolvedor Full Stack com mais de 5 anos de experiência criando soluções digitais inovadoras. Minha paixão é transformar ideias complexas em aplicações funcionais e intuitivas.</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-laptop-code text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-2">Desenvolvimento Web</h3>
+                                <p class="text-gray-600">Criação de aplicações web completas com tecnologias modernas.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-mobile-alt text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-2">Design Responsivo</h3>
+                                <p class="text-gray-600">Sites que se adaptam perfeitamente a qualquer dispositivo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <h3 class="font-bold mb-4">Minhas Habilidades</h3>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm font-medium">JavaScript</span>
+                            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm font-medium">Python</span>
+                            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm font-medium">React</span>
+                            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm font-medium">Node.js</span>
+                            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm font-medium">SQL</span>
+                            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm font-medium">Git</span>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Meus Serviços</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Ofereço soluções completas para suas necessidades digitais, desde desenvolvimento até otimização.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md service-card transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i class="fas fa-code text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Desenvolvimento Web</h3>
+                    <p class="text-gray-600 mb-6">Criação de sites e aplicações web personalizadas com as melhores tecnologias do mercado.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-blue-500 mr-2"></i>
+                            <span>Front-end e Back-end</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-blue-500 mr-2"></i>
+                            <span>Design Responsivo</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-blue-500 mr-2"></i>
+                            <span>Otimização SEO</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">
+                        Saiba mais <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md service-card transition duration-300">
+                    <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center text-purple-600 mb-6">
+                        <i class="fas fa-chart-line text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Marketing Digital</h3>
+                    <p class="text-gray-600 mb-6">Estratégias digitais para aumentar sua presença online e atrair mais clientes.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-500 mr-2"></i>
+                            <span>Gestão de Redes Sociais</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-500 mr-2"></i>
+                            <span>Anúncios Online</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-500 mr-2"></i>
+                            <span>Análise de Dados</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-purple-600 font-medium hover:text-purple-800 inline-flex items-center">
+                        Saiba mais <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md service-card transition duration-300">
+                    <div class="w-14 h-14 bg-green-100 rounded-lg flex items-center justify-center text-green-600 mb-6">
+                        <i class="fas fa-table text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Automação & Excel</h3>
+                    <p class="text-gray-600 mb-6">Soluções em Excel avançado e automação de processos para aumentar sua produtividade.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Macros e VBA</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Dashboards</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Automação de Processos</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-green-600 font-medium hover:text-green-800 inline-flex items-center">
+                        Saiba mais <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Portfólio</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Alguns dos meus projetos recentes que demonstram minha expertise e criatividade.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="rounded-xl overflow-hidden shadow-lg group">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projeto 1" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                            <div>
+                                <h3 class="text-white text-xl font-bold mb-1">Sistema de Gestão</h3>
+                                <p class="text-blue-200">Desenvolvimento Web</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 mb-4">Plataforma completa para gestão empresarial com painel administrativo e relatórios personalizados.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">React</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Node.js</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">MongoDB</span>
+                        </div>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">
+                            Ver detalhes <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="rounded-xl overflow-hidden shadow-lg group">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Projeto 2" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                            <div>
+                                <h3 class="text-white text-xl font-bold mb-1">E-commerce</h3>
+                                <p class="text-blue-200">Loja Virtual</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 mb-4">Loja virtual completa com integração de pagamentos, gestão de estoque e painel administrativo.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Vue.js</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Laravel</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">MySQL</span>
+                        </div>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">
+                            Ver detalhes <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="rounded-xl overflow-hidden shadow-lg group">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projeto 3" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                            <div>
+                                <h3 class="text-white text-xl font-bold mb-1">Dashboard Analytics</h3>
+                                <p class="text-blue-200">Visualização de Dados</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 mb-4">Plataforma de análise de dados com gráficos interativos e relatórios em tempo real.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">React</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">D3.js</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">Firebase</span>
+                        </div>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">
+                            Ver detalhes <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="inline-flex items-center px-6 py-3 border border-gray-300 rounded-lg font-medium text-gray-700 hover:bg-gray-50">
+                    Ver mais projetos <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Entre em Contato</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Estou disponível para novos projetos e oportunidades. Vamos conversar sobre como posso ajudar no seu próximo projeto.</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2">
+                    <form class="bg-white p-8 rounded-xl shadow-md">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Nome</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Seu nome">
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="seu@email.com">
+                        </div>
+                        <div class="mb-6">
+                            <label for="subject" class="block text-gray-700 font-medium mb-2">Assunto</label>
+                            <input type="text" id="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Sobre o que deseja falar?">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Mensagem</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Sua mensagem..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:from-blue-600 hover:to-purple-700 transition duration-300">Enviar Mensagem</button>
+                    </form>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-white p-8 rounded-xl shadow-md h-full">
+                        <h3 class="text-xl font-bold mb-6">Informações de Contato</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-map-marker-alt text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Localização</h4>
+                                    <p class="text-gray-600">Benfica, Zona Verde 3<br>Luanda, Angola</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-envelope text-purple-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Email</h4>
+                                    <p class="text-gray-600">deoliveiraemanuel794@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-green-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-phone-alt text-green-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Telefone</h4>
+                                    <p class="text-gray-600">+244 948 434 796</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-10">
+                            <h4 class="font-bold mb-4">Redes Sociais</h4>
+                            <div class="flex space-x-4">
+                                <a href="https://x.com/costa_dumilde" target="_blank" class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 hover:bg-blue-200 transition duration-300">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/emanuel_joshua_/" target="_blank" class="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center text-pink-600 hover:bg-pink-200 transition duration-300">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" target="_blank" class="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center text-white hover:bg-blue-800 transition duration-300">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://t.me/SEU_USUARIO" target="_blank" class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white hover:bg-blue-600 transition duration-300">
+                                    <i class="fab fa-telegram-plane"></i>
+                                </a>
+                                <a href="#" target="_blank" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-white hover:bg-gray-900 transition duration-300">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold mr-3">EO</div>
+                        <h2 class="text-xl font-bold">Emanuel de Oliveira</h2>
+                    </div>
+                    <p class="text-gray-400 mt-2">Desenvolvedor Full Stack & Especialista em Soluções Digitais</p>
+                </div>
+                
+                <div class="flex flex-col items-center md:items-end">
+                    <div class="flex space-x-6 mb-4">
+                        <a href="#inicio" class="text-gray-400 hover:text-white transition duration-300">Início</a>
+                        <a href="#sobre" class="text-gray-400 hover:text-white transition duration-300">Sobre</a>
+                        <a href="#servicos" class="text-gray-400 hover:text-white transition duration-300">Serviços</a>
+                        <a href="#portfolio" class="text-gray-400 hover:text-white transition duration-300">Portfólio</a>
+                        <a href="#contato" class="text-gray-400 hover:text-white transition duration-300">Contato</a>
+                    </div>
+                    <p class="text-gray-500 text-sm">&copy; 2023 Emanuel de Oliveira. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-6 right-6 w-12 h-12 bg-blue-600 text-white rounded-full shadow-lg flex items-center justify-center opacity-0 invisible transition duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    
+</body>
+</html>
